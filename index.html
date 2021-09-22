@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ac7783596e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <header>
+        <h1>To-do List</h1>
+
+    </header>
+
+    <main class="container">
+        <div class="filter-todo">
+            <input type="text" class="search" placeholder="Buscar to-do" autofocus>
+        </div>
+
+        <div class="todo-container">
+            <ul class="todos-container">
+                <li class="todo">
+                    <span>Tarefa 1</span>
+                    <i class="fas fa-trash delete"></i>
+                </li>
+                <li class="todo">
+                    <span>A fazer</span>
+                    <i class="fas fa-trash delete"></i>
+                </li>
+                <li class="todo">
+                    <span>Oi Mundo</span>
+                    <i class="fas fa-trash delete"></i>
+                </li>
+            </ul>
+        </div>
+
+        <form class="add-todo">
+            <label class="label-title">Adcionar to-do</label>
+            <input type="text" name="add" class="add" id="add">
+        </form>
+        
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
